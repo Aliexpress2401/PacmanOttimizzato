@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\alice.crudele\\Downloads\\PacmanTdd-Kata.Exercise\\PacmanTddKata\\PacmanTddKata\\PacmanTddKata.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\alice.crudele\\Downloads\\PacmanTdd-Kata.Exercise\\PacmanTddKata\\PacmanTddKata\\PacmanTddKata.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alice.crudele\\Downloads\\PacmanTdd-Kata.Exercise\\PacmanTddKata\\PacmanTddKata\\PacmanTddKata.csproj",
+        "projectName": "PacmanTddKata",
+        "projectPath": "C:\\Users\\alice.crudele\\Downloads\\PacmanTdd-Kata.Exercise\\PacmanTddKata\\PacmanTddKata\\PacmanTddKata.csproj",
+        "packagesPath": "C:\\Users\\alice.crudele\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alice.crudele\\Downloads\\PacmanTdd-Kata.Exercise\\PacmanTddKata\\PacmanTddKata\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alice.crudele\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://beantech.pkgs.visualstudio.com/_packaging/beanTech-packages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

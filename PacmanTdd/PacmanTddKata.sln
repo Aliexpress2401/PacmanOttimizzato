@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacmanTddKata", "PacmanTddKata\PacmanTddKata.csproj", "{632E1477-693F-409E-8A65-9CB57A3D7629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacmanTddKata.Tests", "PacmanTddKata.Tests\PacmanTddKata.Tests.csproj", "{7ED6A937-95C7-4656-B017-0D6D7E1D091C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{632E1477-693F-409E-8A65-9CB57A3D7629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632E1477-693F-409E-8A65-9CB57A3D7629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632E1477-693F-409E-8A65-9CB57A3D7629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632E1477-693F-409E-8A65-9CB57A3D7629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ED6A937-95C7-4656-B017-0D6D7E1D091C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED6A937-95C7-4656-B017-0D6D7E1D091C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED6A937-95C7-4656-B017-0D6D7E1D091C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED6A937-95C7-4656-B017-0D6D7E1D091C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42252413-8B7B-4EBA-8A9C-0B1F6D0FE992}
+	EndGlobalSection
+EndGlobal
