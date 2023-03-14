@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alice.crudele\\Downloads\\PacmanTdd-Kata.Exercise\\PacmanTddKata\\PacmanTddKata\\PacmanTddKata.csproj": {}
+    "C:\\Users\\alice.crudele\\Documents\\Pac-Man\\PacManOttimizzato\\PacmanTdd\\PacmanTddKata\\PacmanTddKata.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alice.crudele\\Downloads\\PacmanTdd-Kata.Exercise\\PacmanTddKata\\PacmanTddKata\\PacmanTddKata.csproj": {
+    "C:\\Users\\alice.crudele\\Documents\\Pac-Man\\PacManOttimizzato\\PacmanTdd\\PacmanTddKata\\PacmanTddKata.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alice.crudele\\Downloads\\PacmanTdd-Kata.Exercise\\PacmanTddKata\\PacmanTddKata\\PacmanTddKata.csproj",
+        "projectUniqueName": "C:\\Users\\alice.crudele\\Documents\\Pac-Man\\PacManOttimizzato\\PacmanTdd\\PacmanTddKata\\PacmanTddKata.csproj",
         "projectName": "PacmanTddKata",
-        "projectPath": "C:\\Users\\alice.crudele\\Downloads\\PacmanTdd-Kata.Exercise\\PacmanTddKata\\PacmanTddKata\\PacmanTddKata.csproj",
+        "projectPath": "C:\\Users\\alice.crudele\\Documents\\Pac-Man\\PacManOttimizzato\\PacmanTdd\\PacmanTddKata\\PacmanTddKata.csproj",
         "packagesPath": "C:\\Users\\alice.crudele\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alice.crudele\\Downloads\\PacmanTdd-Kata.Exercise\\PacmanTddKata\\PacmanTddKata\\obj\\",
+        "outputPath": "C:\\Users\\alice.crudele\\Documents\\Pac-Man\\PacManOttimizzato\\PacmanTdd\\PacmanTddKata\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alice.crudele\\AppData\\Roaming\\NuGet\\NuGet.Config",

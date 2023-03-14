@@ -7,7 +7,9 @@ namespace PacmanTddKata.Tests
 {
     public class PacmanGameTest
     {
-        [Fact(DisplayName = "Se non ci sono collisioni, il gioco termina con il punteggio iniziale")]
+        [Fact(DisplayName = "DATO Pacman " +
+            "QUANDO non ci sono collisioni, " +
+            "ALLORA il gioco termina con il punteggio iniziale")]
         public void Test1()
         {
             //arrange
@@ -21,7 +23,9 @@ namespace PacmanTddKata.Tests
             res.Should().Be(new GameResult(5000, 3));
         }
 
-        [Theory(DisplayName = "Per ogni Dot Pacman guadagna 10 punti")]
+        [Theory(DisplayName = "DATO Pacman" +
+            "QUANDO ogni Dot viene mangiato" +
+            "ALLORA Pacman guadagna 10 punti")]
         [InlineData(5000, "Dot", 5010)]
         [InlineData(5000, "Dot,Dot,Dot", 5030)]
         public void Test2(int initialScore, string collisions, int finalScore)
@@ -34,7 +38,9 @@ namespace PacmanTddKata.Tests
             res.Should().Be(new GameResult(finalScore, 3));
         }
 
-        [Theory(DisplayName = "Per ogni Fantasma il punteggio aumenta esponenzialmente")]
+        [Theory(DisplayName = "DATO un Fantasma " +
+            "QUANDO viene mangiato da Pacman" +
+            "ALLORA il punteggio aumenta esponenzialmente")]
         [InlineData(5000, "VulnerableGhost", 5200)]
         [InlineData(5000, "VulnerableGhost,VulnerableGhost", 5600)]
         [InlineData(5000, "VulnerableGhost,VulnerableGhost,VulnerableGhost,VulnerableGhost", 8000)]
@@ -48,7 +54,9 @@ namespace PacmanTddKata.Tests
             res.Should().Be(new GameResult(finalScore, 3));
         }
 
-        [Theory(DisplayName = "Per ogni frutto pacman prende punti")]
+        [Theory(DisplayName = "DATO un frutto" +
+            "QUANDO viene mangiato da Pacman" +
+            "ALLORA prende punti")]
         [InlineData(0, "Cherry", 100)]
         [InlineData(0, "Strawberry", 300)]
         [InlineData(0, "Orange", 500)]
@@ -68,7 +76,9 @@ namespace PacmanTddKata.Tests
         }
 
 
-        [Fact(DisplayName = "Quando trova un fantasma cattivo pacman perde una vita")]
+        [Fact(DisplayName = "DATO un fantasma cattivo" +
+            "QUANDO incontra Pacman" +
+            "ALLORA Pacman perde una vita")]
         public void Test5()
         {
             var sut = PacmanGame.Create(5000, 3);
@@ -80,7 +90,9 @@ namespace PacmanTddKata.Tests
         }
 
 
-        [Fact(DisplayName = "Quando pacman finisce le vite il gioco termina")]
+        [Fact(DisplayName = "DATO Pacman" +
+            "QUANDO finisce le vite " +
+            "ALLORA il gioco termina")]
         public void Test6()
         {
             var sut = PacmanGame.Create(5000, 2);
@@ -93,7 +105,9 @@ namespace PacmanTddKata.Tests
         }
 
 
-        [Fact(DisplayName = "Quando raggiunge 10000 pacman guadagna una vita")]
+        [Fact(DisplayName = "DATO Pacman" +
+            "QUANDO raggiunge 10000 punti" +
+            "ALLORA guadagna una vita")]
         public void Test7()
         {
             var sut = PacmanGame.Create(9990, 2);
@@ -105,7 +119,9 @@ namespace PacmanTddKata.Tests
         }
 
 
-        [Fact(DisplayName = "Per ogni collisione pacman mostra lo stato di gioco")]
+        [Fact(DisplayName = "DATO Pacman" +
+            "QUANDO Per ogni collisione " +
+            "ALLORA pacman mostra lo stato di gioco")]
         public void Test8()
         {
             var ui = new Mock<IUserExperience>();
